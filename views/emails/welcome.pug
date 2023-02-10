@@ -1,0 +1,25 @@
+extends baseEmail
+
+block content
+  tr
+    td.wrapper
+      table(role='presentation' border='0' cellpadding='0' cellspacing='0')
+        tr
+          td
+            p Bonjour, #{firstname},
+            p
+              | Votre compte à été créé avec succès. vous pouvez vous connecter en cliquant sur le bouton ci-dessous.
+              
+            table.btn.btn-primary(role='presentation' border='0' cellpadding='0' cellspacing='0')
+              tbody
+                tr
+                  td(align='left')
+                    table(role='presentation' border='0' cellpadding='0' cellspacing='0')
+                      tbody
+                        tr
+                          td
+                            a(href=`${url}` target='_blank') connectez vous
+            p
+              | Ce mail à été envoyé depuis l'application Prototype Apps.
+            p 
+              | Cordialement.

@@ -1,0 +1,7 @@
+Adresse privé : https://10.12.12.71:7800/8f2fd0bb
+Adresse public : https://website-test.sunuassurances.com:7800/8f2fd0bb
+
+username aapanel: 1bfomi99
+password aapanel: b2380cb6
+
+site web : http://website-test.sunuassurances.com:7900/user/login
